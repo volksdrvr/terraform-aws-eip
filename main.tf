@@ -11,7 +11,7 @@ resource "aws_eip" "eipXXX" {
     
   tags = {
       Name = "${var.name}"
-      Environment = "${var.env}"
+      Environment = "${var.accountname}"
       CR = "${var.cr}"
       }
 }
